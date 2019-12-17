@@ -8,9 +8,9 @@ class GifList extends React.Component{
     }
 
     render(){
-        return <div>
+        return <ul>
            {this.handleList()}
-        </div>
+        </ul>
     }
 }
 
